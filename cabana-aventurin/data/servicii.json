@@ -1,0 +1,146 @@
+[
+  {
+    "id": "evenimente-private",
+    "tag": "Cel mai popular",
+    "tagColor": "forest",
+    "titlu": "Organizare Evenimente Private",
+    "hook": "Ziua ta, regulile tale.",
+    "descriere": "Preluăm tot — de la decoruri și muzică până la meniu — ca tu să fii doar oaspete la propria ta petrecere. Cabana și grădina se transformă exact cum îți dorești.",
+    "features": [
+      "Planificare completă de la A la Z",
+      "Decoruri și ambianță personalizate",
+      "Coordonare furnizori și logistică",
+      "Cabana disponibilă exclusiv pentru tine"
+    ],
+    "pret": "Preț negociabil — cabană integrală sau parțială, cu sau fără catering",
+    "cta": "Solicită ofertă",
+    "ctaLink": "/contact",
+    "icon": "🎉"
+  },
+  {
+    "id": "dj-party",
+    "tag": "Seară de neuitat",
+    "tagColor": "purple",
+    "titlu": "Weekend cu DJ & Party",
+    "hook": "Când muzica bună se întâlnește cu natura.",
+    "descriere": "Un weekend cu DJ profesionist, lumini, dans și aer de munte — rețeta perfectă pentru o evadare cu prietenii. Dans până dimineața, dormit în aer curat.",
+    "features": [
+      "DJ profesionist până dimineața",
+      "Sistem audio & lumini incluse",
+      "Spațiu de dans interior și exterior",
+      "Cazare overnight pentru toți invitații"
+    ],
+    "pret": "Preț negociabil — în funcție de numărul de persoane și serviciile dorite",
+    "cta": "Rezervă weekendul",
+    "ctaLink": "/contact",
+    "icon": "🎵"
+  },
+  {
+    "id": "team-building",
+    "tag": "Corporate",
+    "tagColor": "blue",
+    "titlu": "Team Building",
+    "hook": "Echipele puternice se forjează departe de birou.",
+    "descriere": "Natura, activitățile în aer liber și un cadru relaxat fac mai mult decât orice training de sală. Construiți conexiuni reale, nu prezentări PowerPoint.",
+    "features": [
+      "Activități outdoor ghidate: trekking, orientare",
+      "Spațiu de conferință și workshop",
+      "Mese comune și bonfire seara",
+      "Pachete de 1, 2 sau 3 zile"
+    ],
+    "pret": "Preț negociabil — adaptat la numărul de angajați și agenda dorită",
+    "cta": "Solicită ofertă corporate",
+    "ctaLink": "/contact",
+    "icon": "🤝"
+  },
+  {
+    "id": "nunti-botezuri",
+    "tag": "Momente speciale",
+    "tagColor": "pink",
+    "titlu": "Nunți & Botezuri",
+    "hook": "Un cadru de poveste pentru cel mai important eveniment din viața ta.",
+    "descriere": "Cabana, grădina și natura din jur devin decorul perfect pentru amintiri care durează o viață. Fiecare detaliu, gândit pentru voi.",
+    "features": [
+      "Sală de evenimente și terasă exterioară",
+      "Catering personalizat la cerere",
+      "Cazare pentru familie și nașii miri",
+      "Fotografie recomandată în natură"
+    ],
+    "pret": "Preț negociabil — pachet complet sau doar spațiu, cu sau fără catering",
+    "cta": "Discutăm detaliile",
+    "ctaLink": "/contact",
+    "icon": "💍"
+  },
+  {
+    "id": "outdoor",
+    "tag": "Aventură",
+    "tagColor": "green",
+    "titlu": "Activități Outdoor",
+    "hook": "Munții Apuseni îți stau la ușă.",
+    "descriere": "Trekking pe trasee spectaculoase, ATV prin pădure, tiroliana deasupra văii — natura e terenul tău de joacă. Adrenalină curată, aer de munte, amintiri pentru tot restul vieții.",
+    "features": [
+      "Trekking ghidat pe trasee locale",
+      "ATV și off-road prin pădure",
+      "Tiroliana și activități cu adrenalină",
+      "Pescuit și vânătoare la cerere"
+    ],
+    "pret": "Preț negociabil — activitățile pot fi combinate cu cazare sau evenimente",
+    "cta": "Planificăm aventura",
+    "ctaLink": "/contact",
+    "icon": "🏔️"
+  },
+  {
+    "id": "aniversari-retreats",
+    "tag": "Relaxare",
+    "tagColor": "amber",
+    "titlu": "Aniversări & Retreats",
+    "hook": "Un an în plus merită sărbătorit cum trebuie.",
+    "descriere": "Sau poate ai nevoie pur și simplu de liniște, natură și câteva zile departe de tot. Noi pregătim cadrul, tu te bucuri. Deconectare reală, reconectare cu tine.",
+    "features": [
+      "Pachete romantice pentru cupluri",
+      "Tort și surprize la cerere",
+      "Retreat de wellness: yoga, meditație",
+      "Meniuri speciale și vin local"
+    ],
+    "pret": "Preț negociabil — personalizat în funcție de dorințe și număr de persoane",
+    "cta": "Rezervă momentul",
+    "ctaLink": "/contact",
+    "icon": "✨"
+  },
+  {
+    "id": "iarna",
+    "tag": "Iarnă",
+    "tagColor": "sky",
+    "titlu": "Pachete de Iarnă",
+    "hook": "Când afară ninge, înăuntru e cald, e vin fiert și e foc în șemineu.",
+    "descriere": "Iarna la cabană e un alt univers — și merită trăit cel puțin o dată. Zăpadă, liniște, căldură și povești în jurul focului.",
+    "features": [
+      "Șemineu și zonă de relaxare caldă",
+      "Sanie și activități în zăpadă",
+      "Vin fiert, ceaiuri și meniu de sezon",
+      "Trasee de iarnă prin pădure"
+    ],
+    "pret": "Preț negociabil — disponibilitate în funcție de sezon",
+    "cta": "Rezervă sezonul",
+    "ctaLink": "/contact",
+    "icon": "❄️"
+  },
+  {
+    "id": "catering",
+    "tag": "La comandă",
+    "tagColor": "orange",
+    "titlu": "Catering Inclus",
+    "hook": "Mâncare gătită cu grijă, din produse locale, servită direct la cabană.",
+    "descriere": "De la micul dejun simplu la banchetul complet — adaptăm meniul la evenimentul tău. Gust autentic, ingrediente locale, fără compromisuri.",
+    "features": [
+      "Meniu tradițional românesc la cerere",
+      "Grill și grătar în aer liber",
+      "Mic dejun inclus în pachete overnight",
+      "Opțiuni vegetariene disponibile"
+    ],
+    "pret": "Preț negociabil — catering poate fi adăugat la orice pachet",
+    "cta": "Adaugă catering",
+    "ctaLink": "/contact",
+    "icon": "🍽️"
+  }
+]
