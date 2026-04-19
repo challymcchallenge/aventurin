@@ -139,6 +139,8 @@ export default function HomePage() {
               <ul className="space-y-3 mb-8">
                 {[
                   'La 2 km de Parcul Natural Văile Crișurilor',
+                  'La doar 10 km de Complexul Termal Vața Băi',
+                  'Satul natal al părintelui Arsenie Boca',
                   'Capacitate flexibilă: 20–100 persoane',
                   'Parcare gratuită și acces facil cu mașina',
                   'Animale de companie acceptate',
