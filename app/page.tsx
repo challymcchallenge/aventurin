@@ -139,6 +139,7 @@ export default function HomePage() {
 
               <ul className="space-y-3 mb-8">
                 {[
+                  'La doar 10 km de Complexul Termal Vața Băi',
                   'La 2 km de Parcul Natural Văile Crișurilor',
                   'Capacitate flexibilă: 20–100 persoane',
                   'Parcare gratuită și acces facil cu mașina',

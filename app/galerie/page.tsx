@@ -5,30 +5,38 @@ import Image from 'next/image'
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
 
 const photos = [
-  { src: '/media/1.jpg',   alt: 'Cabana Aventurin', category: 'exterior' },
-  { src: '/media/1b.jpg',  alt: 'Cabana Aventurin', category: 'exterior' },
-  { src: '/media/2.jpg',   alt: 'Natură și peisaj', category: 'natura' },
-  { src: '/media/3.jpg',   alt: 'Vedere panoramică', category: 'natura' },
-  { src: '/media/4.jpg',   alt: 'Exterior cabană', category: 'exterior' },
-  { src: '/media/5.jpg',   alt: 'Grădina cabanei', category: 'exterior' },
-  { src: '/media/6.jpg',   alt: 'Interior cabană', category: 'interior' },
-  { src: '/media/7.jpg',   alt: 'Cameră de zi', category: 'interior' },
-  { src: '/media/8.jpg',   alt: 'Detalii interior', category: 'interior' },
-  { src: '/media/9.jpg',   alt: 'Priveliște', category: 'natura' },
-  { src: '/media/10.jpg',  alt: 'Grădina', category: 'exterior' },
-  { src: '/media/11.jpg',  alt: 'Cabana vara', category: 'exterior' },
-  { src: '/media/12.jpg',  alt: 'Spațiu de relaxare', category: 'interior' },
-  { src: '/media/13.jpg',  alt: 'Natură înconjurătoare', category: 'natura' },
-  { src: '/media/14.jpg',  alt: 'Eveniment la cabană', category: 'evenimente' },
-  { src: '/media/15.jpg',  alt: 'Terasă exterioară', category: 'exterior' },
-  { src: '/media/16.jpg',  alt: 'Noapte la cabană', category: 'evenimente' },
-  { src: '/media/17.jpg',  alt: 'Activitate outdoor', category: 'activitati' },
-  { src: '/media/18.jpg',  alt: 'Trekking în pădure', category: 'activitati' },
-  { src: '/media/19.jpg',  alt: 'Vedere de pe deal', category: 'natura' },
-  { src: '/media/20.jpg',  alt: 'Moment special', category: 'evenimente' },
-  { src: '/media/21.jpg',  alt: 'Aventura outdoor', category: 'activitati' },
-  { src: '/media/22.jpg',  alt: 'Seară la cabană', category: 'evenimente' },
-  { src: '/media/23.jpg',  alt: 'Iarna la cabană', category: 'iarna' },
+  { src: '/media/1.jpg',    alt: 'Cabana Aventurin',              category: 'exterior'   },
+  { src: '/media/1b.jpg',   alt: 'Cabana Aventurin',              category: 'exterior'   },
+  { src: '/media/2.jpg',    alt: 'Natură și peisaj',              category: 'natura'     },
+  { src: '/media/3.jpg',    alt: 'Vedere panoramică',             category: 'natura'     },
+  { src: '/media/4.jpg',    alt: 'Exterior cabană',               category: 'exterior'   },
+  { src: '/media/5.jpg',    alt: 'Grădina cabanei',               category: 'exterior'   },
+  { src: '/media/6.jpg',    alt: 'Interior cabană',               category: 'interior'   },
+  { src: '/media/7.jpg',    alt: 'Cameră de zi',                  category: 'interior'   },
+  { src: '/media/8.jpg',    alt: 'Detalii interior',              category: 'interior'   },
+  { src: '/media/9.jpg',    alt: 'Priveliște',                    category: 'natura'     },
+  { src: '/media/10.jpg',   alt: 'Grădina',                       category: 'exterior'   },
+  { src: '/media/11.jpg',   alt: 'Cabana vara',                   category: 'exterior'   },
+  { src: '/media/12.jpg',   alt: 'Spațiu de relaxare',            category: 'interior'   },
+  { src: '/media/13.jpg',   alt: 'Natură înconjurătoare',         category: 'natura'     },
+  { src: '/media/14.jpg',   alt: 'Eveniment la cabană',           category: 'evenimente' },
+  { src: '/media/15.jpg',   alt: 'Terasă exterioară',             category: 'exterior'   },
+  { src: '/media/16.jpg',   alt: 'Noapte la cabană',              category: 'evenimente' },
+  { src: '/media/17.jpg',   alt: 'Activitate outdoor',            category: 'activitati' },
+  { src: '/media/18.jpg',   alt: 'Trekking în pădure',            category: 'activitati' },
+  { src: '/media/19.jpg',   alt: 'Vedere de pe deal',             category: 'natura'     },
+  { src: '/media/20.jpg',   alt: 'Moment special',                category: 'evenimente' },
+  { src: '/media/21.jpg',   alt: 'Aventura outdoor',              category: 'activitati' },
+  { src: '/media/22.jpg',   alt: 'Seară la cabană',               category: 'evenimente' },
+  { src: '/media/23.jpg',   alt: 'Iarna la cabană',               category: 'iarna'      },
+  { src: '/media/B1.jpeg',  alt: 'Cabana Aventurin',              category: 'exterior'   },
+  { src: '/media/B2.jpeg',  alt: 'Cabana Aventurin - peisaj',     category: 'natura'     },
+  { src: '/media/B3.jpeg',  alt: 'Cabana Aventurin - exterior',   category: 'exterior'   },
+  { src: '/media/B4.jpeg',  alt: 'Cabana Aventurin - grădină',    category: 'exterior'   },
+  { src: '/media/B5.jpeg',  alt: 'Cabana Aventurin - detalii',    category: 'interior'   },
+  { src: '/media/B6.jpeg',  alt: 'Cabana Aventurin - relaxare',   category: 'interior'   },
+  { src: '/media/B7.jpeg',  alt: 'Cabana Aventurin - vedere',     category: 'natura'     },
+  { src: '/media/B8.jpeg',  alt: 'Cabana Aventurin - natură',     category: 'natura'     },
 ]
 
 const categories = [
@@ -112,8 +120,6 @@ export default function GaleriePage() {
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   />
                 </div>
-
-                {/* Hover overlay */}
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
                   <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 drop-shadow-lg" />
                 </div>
@@ -129,7 +135,6 @@ export default function GaleriePage() {
           className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
           onClick={closeLightbox}
         >
-          {/* Close */}
           <button
             className="absolute top-4 right-4 w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
             onClick={closeLightbox}
@@ -137,13 +142,9 @@ export default function GaleriePage() {
           >
             <X className="w-5 h-5" />
           </button>
-
-          {/* Counter */}
           <div className="absolute top-4 left-1/2 -translate-x-1/2 text-white/60 text-sm">
             {lightbox + 1} / {filtered.length}
           </div>
-
-          {/* Prev */}
           <button
             className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
             onClick={(e) => { e.stopPropagation(); prevPhoto() }}
@@ -151,8 +152,6 @@ export default function GaleriePage() {
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
-
-          {/* Image */}
           <div
             className="relative max-w-5xl max-h-[85vh] w-full h-full"
             onClick={(e) => e.stopPropagation()}
@@ -166,8 +165,6 @@ export default function GaleriePage() {
               priority
             />
           </div>
-
-          {/* Next */}
           <button
             className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
             onClick={(e) => { e.stopPropagation(); nextPhoto() }}
@@ -175,8 +172,6 @@ export default function GaleriePage() {
           >
             <ChevronRight className="w-6 h-6" />
           </button>
-
-          {/* Caption */}
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/70 text-sm">
             {filtered[lightbox].alt}
           </div>
